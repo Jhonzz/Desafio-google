@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url(https://www.wallpapertip.com/wmimgs/57-576533_imagens-do-espao.jpg);
+}
+
+h1 {
+  position: relative;
+  margin: 30px;
+  font-weight: 500;
+  width: 272px;
+  height: 85px;
+  font-family: "roboto", sans-serif;
+  color: #ffffff;
+  font-size: 90px;
+  text-align: center;
+}
+.links-superiores {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.links-superiores li {
+  display: inline;
+  margin: 0 20px 0 2px;
+}
+.links-superiores a {
+  text-transform: initial;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+input {
+  margin: 20px;
+  width: 400px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.itens li {
+  color: aliceblue;
+  display: inline;
+  padding: 0 10px;
+  margin: 0 0 0 20px;
+  text-align: center;
+}
+.itens a {
+  font-weight: 200;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
