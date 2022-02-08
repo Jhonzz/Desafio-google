@@ -32,6 +32,9 @@ h1 {
   text-decoration: none;
   color: #ffffff;
 }
+.links-superiores:hover {
+  text-decoration: underline;
+}
 
 input {
   margin: 20px;
@@ -53,4 +56,9 @@ input {
   text-decoration: none;
   color: #ffffff;
   text-transform: uppercase;
+}
+.itens a:hover {
+  color: aqua;
+  font-size: 20px;
+  text-decoration: underline;
 }
